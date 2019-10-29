@@ -1,0 +1,104 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// font-awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+
+.questions-header{
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.questions-body{
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.counters{
+  margin-right: 30px;
+  font-size: 10px;
+  text-align: center;
+
+  strong{
+    display: block;
+    font-size: 2em;
+  }
+
+  .votes,.answers{
+    width: 60px;
+    height: 60px;
+  }
+
+  .status{
+    &.unanswered{
+      border: none;
+    }
+
+    &.answered{
+      border: 1px solid $color-green;
+      color: $color-green;
+    }
+
+    &.answered-accepted{
+      background: $color-green;
+      color: $color-white;
+      font-weight: bold;
+    }
+  }
+}
+
+.vote-control{
+  min-width: 60px;
+  text-align: center;
+  margin-right: 30px;
+
+  span,a{
+    display: block;
+  }
+
+  span{
+    &.vote-count{
+      font-size: 25px;
+    }
+    &.favorite-count{
+      font-size: 12px;
+    }
+  }
+
+  a{
+    cursor: pointer;
+    color: $gray-600;
+
+    &.off, &.off:hover{
+      color: $gray-500;
+    }
+
+    &.favorite{
+      &.favorited, &.favorited:hover{
+        color: $danger;
+      }
+    }
+    &.vote-accepted{
+      color: $green;
+    }
+    //&.vote-up, &.vote-down, &.favorite-count{
+    //
+    //}
+  }
+}
+
+[v-cloak]{
+  display: none;
+}
