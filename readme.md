@@ -20,6 +20,6 @@
 
 # screenshots:
 
-    ![Capture2](https://user-images.githubusercontent.com/18087611/67742068-24499400-fa45-11e9-9b18-9f2c8a3ca342.JPG)
-    ![Capture1](https://user-images.githubusercontent.com/18087611/67742071-24499400-fa45-11e9-929c-f6d8fdc32139.JPG)
-    ![Capture3](https://user-images.githubusercontent.com/18087611/67742073-24e22a80-fa45-11e9-9e72-4d5c7910bbc1.JPG)
+   ![Capture2](https://user-images.githubusercontent.com/18087611/67742068-24499400-fa45-11e9-9b18-9f2c8a3ca342.JPG)
+   ![Capture1](https://user-images.githubusercontent.com/18087611/67742071-24499400-fa45-11e9-929c-f6d8fdc32139.JPG)
+   ![Capture3](https://user-images.githubusercontent.com/18087611/67742073-24e22a80-fa45-11e9-9e72-4d5c7910bbc1.JPG)
